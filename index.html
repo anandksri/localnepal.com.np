@@ -1,1123 +1,162 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LocalNepal | High-End Digital Marketing</title>
-    <meta name="description"
-        content="We scale modern brands with data-driven marketing and high-converting digital experiences.">
-
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- Phosphor Icons -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
-    <!-- Tailwind CSS (CDN) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
-
-                    colors: {
-                        primary: '#FF1A1A',     // RED (logo)
-                        secondary: '#1A4DFF',   // BLUE (logo)
-
-                        dark: {
-                            bg: '#0A0A0A',
-                            card: '#121212',
-                            border: '#1F2937'
-                        }
-                    },
-
-                    backgroundImage: {
-                        'main-bg': `
-          radial-gradient(circle at 20% 20%, rgba(255,26,26,0.12), transparent 40%),
-          radial-gradient(circle at 80% 30%, rgba(26,77,255,0.12), transparent 40%),
-          linear-gradient(135deg, #0A0A0A, #0F172A)
-        `,
-                    },
-
-                    boxShadow: {
-                        glowRed: '0 0 20px rgba(255,26,26,0.3)',
-                        glowBlue: '0 0 20px rgba(26,77,255,0.3)',
-                    }
-                }
-            }
-        }
-    </script>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LocalNepal | Digital Marketing for Businesses in Nepal</title>
+  <meta name="description" content="LocalNepal helps businesses in Kathmandu and Birgunj connect with customers through digital marketing, SEO, paid ads, brand strategy and more.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://anandksri.github.io/localnepal/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LocalNepal">
+  <meta property="og:title" content="LocalNepal | Digital Marketing for Businesses in Nepal">
+  <meta property="og:description" content="Thoughtful digital marketing for businesses ready to reach the right people. Serving Kathmandu and Birgunj.">
+  <meta property="og:url" content="https://anandksri.github.io/localnepal/">
+  <meta property="og:image" content="https://anandksri.github.io/localnepal/images/localnepal.png">
+  <meta property="og:image:alt" content="LocalNepal logo">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LocalNepal | Digital Marketing for Businesses in Nepal">
+  <meta name="twitter:description" content="Thoughtful digital marketing for businesses ready to reach the right people.">
+  <meta name="twitter:image" content="https://anandksri.github.io/localnepal/images/localnepal.png">
+  <meta name="theme-color" content="#111313">
+  <link rel="icon" type="image/png" href="images/localnepal.png">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "LocalNepal",
+    "description": "Digital marketing, SEO, paid advertising and brand strategy for businesses in Nepal.",
+    "url": "https://anandksri.github.io/localnepal/",
+    "image": "https://anandksri.github.io/localnepal/images/localnepal.png",
+    "telephone": "+977-9845789757",
+    "areaServed": [
+      { "@type": "City", "name": "Kathmandu" },
+      { "@type": "City", "name": "Birgunj" }
+    ],
+    "sameAs": ["https://www.facebook.com/profile.php?id=61578583409553"]
+  }
+  </script>
+  <script src="script.js" defer></script>
 </head>
+<body>
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="icon-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24"><path d="M12 3 14 9l6 3-6 2-2 7-2-7-6-2 6-3 2-6Z"/></symbol>
+    <symbol id="icon-layout" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M9 9v11"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m4 6 8 7 8-7"/></symbol>
+    <symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20h16M6 17v-5M12 17V7M18 17V4"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6.5 3.5 9 3l2 5-2 1.5a15 15 0 0 0 5.5 5.5L16 13l5 2-.5 2.5a3 3 0 0 1-3.1 2.4A15.5 15.5 0 0 1 4.1 6.6 3 3 0 0 1 6.5 3.5Z"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<body class="bg-main-bg text-slate-300 font-sans antialiased overflow-x-hidden">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="LocalNepal home">
+        <img src="images/localnepal.png" alt="" width="42" height="42">
+        <span>local<span class="brand-accent">nepal</span><span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" hidden>
+        <span class="menu-label">Menu</span><span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#approach">Our approach</a>
+        <a href="#questions">FAQs</a>
+        <a class="nav-cta" href="#contact">Let's talk <svg class="icon"><use href="#icon-up-right"></use></svg></a>
+      </nav>
+    </div>
+  </header>
 
-    <div id="loader" class="fixed inset-0 bg-black z-[9999] flex items-center justify-center">
-        <div class="text-center">
-
-            <div class="w-16 h-16 border-4 border-white/10 border-t-primary rounded-full animate-spin mx-auto mb-6">
-            </div>
-
-            <p class="text-white tracking-widest text-sm">
-                LOADING EXPERIENCE
-            </p>
-
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Digital marketing, made local</p>
+          <h1>Good businesses deserve to be <em>found.</em></h1>
+          <p class="hero-description">From the first search to the next loyal customer, we help your business show up with purpose and grow online.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#contact">Start a conversation <svg class="icon"><use href="#icon-arrow"></use></svg></a>
+            <a class="text-link" href="#services">Explore what we do <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-top"><span>LOCAL THINKING.</span><span>01 / 03</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="art-center"><span>Ideas with<br><i>direction.</i></span><svg class="icon"><use href="#icon-up-right"></use></svg></div>
+          <div class="art-cross cross-one">+</div><div class="art-cross cross-two">+</div>
+          <div class="art-bottom"><span>KATHMANDU<br>BIRGUNJ</span><span>NEPAL<br>27° N / 85° E</span></div>
+        </div>
+      </div>
+      <div class="container hero-foot"><span>Independent thinking. Intentional work.</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <div class="ticker" aria-label="Our focus">
+      <div class="container ticker-inner"><span>Strategy</span><span class="ticker-star" aria-hidden="true">✳</span><span>Search</span><span class="ticker-star" aria-hidden="true">✳</span><span>Creative</span><span class="ticker-star" aria-hidden="true">✳</span><span>Performance</span></div>
     </div>
 
-    <!-- Background Glow Effects -->
-    <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
-        <div
-            class="absolute top-[-10%] left-[-10%] w-[40rem] h-[40rem] rounded-full bg-brand-600/20 blur-[120px] mix-blend-screen animate-blob">
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> What we do <span class="section-number">/ 01</span></p><h2>Make every<br>move <em>matter.</em></h2></div>
+          <p>Good marketing is more than being seen. It's about making the right impression, in the right place, for the right people.</p>
         </div>
-        <div class="absolute top-[20%] right-[-10%] w-[35rem] h-[35rem] rounded-full bg-cyan-600/20 blur-[120px] mix-blend-screen animate-blob"
-            style="animation-delay: 2s"></div>
-        <div class="absolute bottom-[-20%] left-[20%] w-[45rem] h-[45rem] rounded-full bg-blue-600/20 blur-[120px] mix-blend-screen animate-blob"
-            style="animation-delay: 4s"></div>
-    </div>
-    <!-- cursor glow -->
-    <div id="cursor-glow"></div>
-
-    <!-- scroll progress -->
-    <div id="scroll-progress" class="fixed top-0 left-0 h-[3px] bg-primary z-[9999]"></div>
-
-    <!-- Navigation -->
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 border-b border-transparent">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-
-                <!-- 🔷 Logo -->
-                <a href="#home" class="flex items-center gap-3 group">
-                    <img src="images/localnepal.png" alt="Logo"
-                        class="h-9 w-auto transition-transform group-hover:scale-105">
-
-                    <span class="text-xl font-bold text-white tracking-tight">
-                        Local<span class="text-primary">Nepal</span>
-                    </span>
-                </a>
-
-                <!-- 🔷 Desktop Menu -->
-                <div class="hidden md:flex items-center gap-8 text-sm font-medium">
-
-                    <a href="#home" class="text-slate-400 hover:text-white transition">Home</a>
-
-                    <a href="#services" class="text-slate-400 hover:text-white transition">Services</a>
-
-                    <a href="#portfolio" class="text-slate-400 hover:text-white transition">Portfolio</a>
-
-                    <a href="#about" class="text-slate-400 hover:text-white transition">About</a>
-
-                    <a href="#work" class="text-slate-400 hover:text-white transition">Work</a>
-
-                    <a href="#testimonials" class="text-slate-400 hover:text-white transition">Testimonial</a>
-
-                    <a href="#contact" class="text-slate-400 hover:text-white transition">Contact</a>
-
-                </div>
-
-                <!-- 🔥 CTA BUTTON -->
-                <div class="hidden md:block">
-                    <a href="#contact"
-                        class="px-6 py-2.5 rounded-lg text-sm font-semibold text-white bg-primary hover:bg-red-600 transition-all duration-300 glow-red">
-                        Book a Call
-                    </a>
-                </div>
-
-                <!-- 📱 Mobile Button -->
-                <div class="md:hidden">
-                    <button id="mobile-menu-btn" class="text-white">
-                        <i class="ph ph-list text-3xl"></i>
-                    </button>
-                </div>
-
-            </div>
+        <div class="service-grid">
+          <article class="service-card"><div class="card-top"><svg class="icon service-icon"><use href="#icon-target"></use></svg><span>01</span></div><h3>Paid advertising</h3><p>Reach the people most likely to care with considered campaigns across platforms like Google and Meta.</p><span class="card-tag">CAMPAIGN STRATEGY / ADS</span></article>
+          <article class="service-card"><div class="card-top"><svg class="icon service-icon"><use href="#icon-search"></use></svg><span>02</span></div><h3>Search engine optimization</h3><p>Make your business easier to discover with useful content, on-page improvements and a stronger search presence.</p><span class="card-tag">SEO / LOCAL SEARCH</span></article>
+          <article class="service-card"><div class="card-top"><svg class="icon service-icon"><use href="#icon-spark"></use></svg><span>03</span></div><h3>Brand strategy</h3><p>Find a clearer way to tell your story and build a brand people can recognize and remember.</p><span class="card-tag">POSITIONING / IDENTITY</span></article>
+          <article class="service-card"><div class="card-top"><svg class="icon service-icon"><use href="#icon-layout"></use></svg><span>04</span></div><h3>Conversion funnels</h3><p>Bring the journey together with focused landing pages and a clearer path from interest to inquiry.</p><span class="card-tag">LANDING PAGES / JOURNEYS</span></article>
+          <article class="service-card"><div class="card-top"><svg class="icon service-icon"><use href="#icon-mail"></use></svg><span>05</span></div><h3>Email marketing</h3><p>Stay connected beyond the first visit with relevant messages that nurture customer relationships.</p><span class="card-tag">EMAIL / RETENTION</span></article>
+          <article class="service-card"><div class="card-top"><svg class="icon service-icon"><use href="#icon-chart"></use></svg><span>06</span></div><h3>Analytics &amp; tracking</h3><p>Understand what's working with meaningful measurement, reporting and informed next steps.</p><span class="card-tag">MEASUREMENT / INSIGHTS</span></article>
         </div>
-
-        <!-- 📱 Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-dark-card border-b border-dark-border px-6 pb-6">
-
-            <div class="flex flex-col gap-4 text-sm mt-4">
-
-                <a href="#home" class="text-slate-400 hover:text-white">Home</a>
-                <a href="#services" class="text-slate-400 hover:text-white">Services</a>
-                <a href="#portfolio" class="text-slate-400 hover:text-white">Portfolio</a>
-                <a href="#about" class="text-slate-400 hover:text-white">About</a>
-                <a href="#work" class="text-slate-400 hover:text-white">Work</a>
-                <a href="#testimonials" class="text-slate-400 hover:text-white">Testimonial</a>
-                <a href="#contact" class="text-slate-400 hover:text-white">Contact</a>
-
-                <a href="#contact"
-                    class="mt-4 text-center bg-primary py-3 rounded-lg text-white font-semibold glow-red">
-                    Book a Call
-                </a>
-
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-28">
-
-        <!-- 🔥 Background Glow -->
-        <div class="absolute inset-0 z-[-1]">
-            <div class="absolute top-20 left-10 w-[300px] h-[300px] bg-primary/20 blur-[120px] rounded-full"></div>
-            <div class="absolute bottom-20 right-10 w-[300px] h-[300px] bg-secondary/20 blur-[120px] rounded-full">
-            </div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-6 text-center">
-
-            <!-- 🚀 Badge -->
-            <div
-                class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-xs text-slate-300 mb-8 reveal">
-                <span class="w-2 h-2 bg-primary rounded-full animate-ping"></span>
-                Performance Driven Digital Marketing
-            </div>
-
-            <!-- 💥 Headline -->
-            <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-6 reveal">
-
-                We Build <br class="hidden md:block" />
-
-                <span id="typing-text"
-                    class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent border-r-2 border-primary pr-1">
-                </span>
-
-            </h1>
-
-            <!-- 🧠 Subtext -->
-            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 reveal">
-                Not just marketing. We engineer predictable revenue systems using data, creativity, and performance
-                strategies.
-            </p>
-
-            <!-- 🔥 Buttons -->
-            <div class="flex flex-col sm:flex-row justify-center gap-4 reveal">
-
-                <!-- Primary -->
-                <a href="#contact"
-                    class="px-8 py-4 rounded-xl bg-primary text-white font-bold text-lg transition-all duration-300 hover:bg-red-600 glow-red flex items-center justify-center gap-2">
-                    Start Scaling
-                    <i class="ph-bold ph-arrow-right"></i>
-                </a>
-
-                <!-- Secondary -->
-                <a href="#portfolio"
-                    class="px-8 py-4 rounded-xl border border-white/10 text-white font-semibold hover:bg-white/5 transition-all flex items-center justify-center gap-2">
-                    View Work
-                </a>
-
-            </div>
-
-            <!-- 📊 Stats -->
-            <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/10 pt-10 reveal">
-
-                <div>
-                    <h3 class="text-3xl font-bold text-white">$50M+</h3>
-                    <p class="text-slate-500 text-sm">Revenue Generated</p>
-                </div>
-
-                <div>
-                    <h3 class="text-3xl font-bold text-white">98%</h3>
-                    <p class="text-slate-500 text-sm">Client Retention</p>
-                </div>
-
-                <div>
-                    <h3 class="text-3xl font-bold text-white">150+</h3>
-                    <p class="text-slate-500 text-sm">Brands Scaled</p>
-                </div>
-
-                <div>
-                    <h3 class="text-3xl font-bold text-white">24/7</h3>
-                    <p class="text-slate-500 text-sm">Support</p>
-                </div>
-
-            </div>
-
-        </div>
+      </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-28 relative">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <!-- 🔥 Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-20 reveal">
-                <h2 class="text-sm font-semibold text-primary uppercase tracking-widest mb-3">
-                    Our Services
-                </h2>
-
-                <h3 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                    We Build Systems That <br />
-                    <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                        Drive Revenue
-                    </span>
-                </h3>
-
-                <p class="text-slate-400 text-lg">
-                    Every service is designed to maximize ROI, not vanity metrics.
-                </p>
-            </div>
-
-            <!-- 🚀 Cards -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- 🔴 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <!-- glow -->
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <!-- icon -->
-                    <div
-                        class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition">
-                        <i class="ph ph-funnel text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Conversion Funnels
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        We design high-converting funnels that turn visitors into customers automatically.
-                    </p>
-
-                    <a href="#" class="text-primary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Learn More <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-                </div>
-
-                <!-- 🔵 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition">
-                        <i class="ph ph-trend-up text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Paid Ads Scaling
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Data-driven campaigns across Meta, Google & TikTok for consistent growth.
-                    </p>
-
-                    <a href="#" class="text-secondary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Learn More <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-                </div>
-
-                <!-- 🔴 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition">
-                        <i class="ph ph-magnifying-glass text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        SEO Optimization
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Rank higher and dominate search results with technical SEO strategies.
-                    </p>
-
-                    <a href="#" class="text-primary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Learn More <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-                </div>
-
-                <!-- 🔵 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition">
-                        <i class="ph ph-pen-nib text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Brand Strategy
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Build a strong identity that connects emotionally and converts consistently.
-                    </p>
-
-                    <a href="#" class="text-secondary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Learn More <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-                </div>
-
-                <!-- 🔴 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition">
-                        <i class="ph ph-envelope-simple text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Email Marketing
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Automated flows that increase retention and customer lifetime value.
-                    </p>
-
-                    <a href="#" class="text-primary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Learn More <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-                </div>
-
-                <!-- 🔵 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition">
-                        <i class="ph ph-chart-bar text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Analytics & Tracking
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Full visibility into your performance with advanced tracking systems.
-                    </p>
-
-                    <a href="#" class="text-secondary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Learn More <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-                </div>
-
-            </div>
+    <section class="section approach" id="approach">
+      <div class="container approach-grid">
+        <div class="approach-intro">
+          <p class="eyebrow"><span class="eyebrow-line"></span> How we work <span class="section-number">/ 02</span></p>
+          <h2>Less noise.<br><em>More direction.</em></h2>
+          <p>Every business has a different story. We start by listening, then build a practical plan around your goals, your audience and your resources.</p>
+          <a class="text-link light-link" href="#contact">Tell us about your business <svg class="icon"><use href="#icon-arrow"></use></svg></a>
         </div>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Get to know you</h3><p>We learn about your business, your customers and what you're working toward.</p></div><svg class="icon"><use href="#icon-up-right"></use></svg></div>
+          <div class="step"><span>02</span><div><h3>Make a plan</h3><p>Together, we identify the channels and ideas that make sense for your goals.</p></div><svg class="icon"><use href="#icon-up-right"></use></svg></div>
+          <div class="step"><span>03</span><div><h3>Build and improve</h3><p>We put the plan into action, pay attention to the details and use insights to guide what comes next.</p></div><svg class="icon"><use href="#icon-up-right"></use></svg></div>
+        </div>
+      </div>
     </section>
 
-
-    <!-- portfolio Section -->
-    <section id="portfolio" class="py-28 relative  border-y border-dark-border">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <!-- 🔥 Header -->
-            <div class="flex flex-col md:flex-row justify-between items-end gap-6 mb-16 reveal">
-
-                <div>
-                    <h2 class="text-sm text-primary uppercase tracking-widest mb-3">
-                        Case Studies
-                    </h2>
-
-                    <h3 class="text-4xl md:text-6xl font-bold text-white leading-tight">
-                        Real Results. <br />
-                        <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                            Proven Growth
-                        </span>
-                    </h3>
-                </div>
-
-
-            </div>
-
-            <!-- 🚀 CASE STUDIES -->
-            <div class="grid md:grid-cols-2 gap-10">
-
-                <!-- 🔴 CASE 1 -->
-                <div
-                    class="group relative rounded-2xl overflow-hidden border border-dark-border bg-dark-bg cursor-pointer">
-
-                    <!-- background -->
-                    <div
-                        class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition">
-                    </div>
-
-                    <!-- content -->
-                    <div class="p-8 relative z-10">
-
-                        <div class="flex gap-2 mb-4">
-                            <span class="text-xs px-3 py-1 bg-white/10 rounded-full">SaaS</span>
-                            <span class="text-xs px-3 py-1 bg-primary/20 text-primary rounded-full">Paid Ads</span>
-                        </div>
-
-                        <h4 class="text-2xl font-bold text-white mb-4">
-                            $1M → $4.5M Revenue Growth
-                        </h4>
-
-                        <p class="text-slate-400 mb-6">
-                            Built a full-funnel ad system that scaled profitably across Meta & Google.
-                        </p>
-
-                        <!-- stats -->
-                        <div class="flex gap-6 text-sm">
-                            <div>
-                                <p class="text-primary font-bold text-lg">+350%</p>
-                                <p class="text-slate-500">ROI</p>
-                            </div>
-                            <div>
-                                <p class="text-primary font-bold text-lg">-40%</p>
-                                <p class="text-slate-500">CAC</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-6 flex items-center text-primary gap-2 group-hover:gap-3 transition-all">
-                            View Case Study
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- 🔵 CASE 2 -->
-                <div
-                    class="group relative rounded-2xl overflow-hidden border border-dark-border bg-dark-bg cursor-pointer">
-
-                    <div
-                        class="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-0 group-hover:opacity-100 transition">
-                    </div>
-
-                    <div class="p-8 relative z-10">
-
-                        <div class="flex gap-2 mb-4">
-                            <span class="text-xs px-3 py-1 bg-white/10 rounded-full">E-commerce</span>
-                            <span class="text-xs px-3 py-1 bg-secondary/20 text-secondary rounded-full">SEO</span>
-                        </div>
-
-                        <h4 class="text-2xl font-bold text-white mb-4">
-                            2X Sales in 6 Months
-                        </h4>
-
-                        <p class="text-slate-400 mb-6">
-                            Optimized SEO + retention funnels to double conversion rate and revenue.
-                        </p>
-
-                        <div class="flex gap-6 text-sm">
-                            <div>
-                                <p class="text-secondary font-bold text-lg">+120%</p>
-                                <p class="text-slate-500">Revenue</p>
-                            </div>
-                            <div>
-                                <p class="text-secondary font-bold text-lg">+65%</p>
-                                <p class="text-slate-500">Conversion</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-6 flex items-center text-secondary gap-2 group-hover:gap-3 transition-all">
-                            View Case Study
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+    <section class="section local-section">
+      <div class="container local-grid">
+        <div class="local-art" aria-hidden="true"><div class="local-art-label">ROOTED HERE<br>READY FOR WHAT'S NEXT</div><div class="local-art-mark">N<span>.</span></div><div class="local-art-bottom">LOCAL PERSPECTIVE <span>→</span> DIGITAL REACH</div></div>
+        <div class="local-copy"><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> Made for here <span class="section-number">/ 03</span></p><h2>Local roots.<br><em>Broader reach.</em></h2><p>Whether you're building a name in Kathmandu, connecting with customers in Birgunj or reaching beyond, your marketing should feel true to your business.</p><p>We bring strategy and creative thinking together to help you communicate clearly and show up consistently.</p><div class="location-list"><span>KATHMANDU</span><span>BIRGUNJ</span><span>NEPAL</span></div></div>
+      </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-28 relative overflow-hidden">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-                <!-- 🔥 LEFT VISUAL -->
-                <div class="relative reveal">
-
-                    <div class="relative rounded-2xl border border-dark-border bg-dark-card p-8 overflow-hidden">
-
-                        <!-- glow -->
-                        <div class="absolute top-0 left-0 w-40 h-40 bg-primary/20 blur-3xl"></div>
-                        <div class="absolute bottom-0 right-0 w-40 h-40 bg-secondary/20 blur-3xl"></div>
-
-                        <!-- fake dashboard -->
-                        <div class="relative z-10 space-y-6">
-
-                            <div class="h-3 w-32 bg-primary rounded-full"></div>
-                            <div class="h-3 w-full bg-slate-700 rounded-full"></div>
-                            <div class="h-3 w-4/5 bg-slate-700 rounded-full"></div>
-
-                            <!-- chart bars -->
-                            <div class="flex items-end gap-2 h-28 mt-6">
-                                <div class="w-1/5 bg-slate-700 h-[30%] rounded"></div>
-                                <div class="w-1/5 bg-slate-700 h-[45%] rounded"></div>
-                                <div class="w-1/5 bg-primary/60 h-[60%] rounded"></div>
-                                <div class="w-1/5 bg-primary/80 h-[80%] rounded"></div>
-                                <div class="w-1/5 bg-primary h-[100%] rounded shadow-[0_0_20px_rgba(255,26,26,0.5)]">
-                                </div>
-                            </div>
-
-                            <!-- stat card -->
-                            <div class="p-4 rounded-xl border border-white/10 bg-black/40 backdrop-blur">
-                                <p class="text-sm text-slate-400">Monthly Growth</p>
-                                <p class="text-2xl font-bold text-primary">+342%</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- 🔥 RIGHT CONTENT -->
-                <div class="reveal">
-
-                    <h2 class="text-sm text-primary uppercase tracking-widest mb-3">
-                        About Us
-                    </h2>
-
-                    <h3 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                        We Don’t Run Ads. <br />
-                        <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                            We Build Growth Systems.
-                        </span>
-                    </h3>
-
-                    <p class="text-slate-400 text-lg mb-6 leading-relaxed">
-                        Most agencies focus on clicks and impressions. We focus on what actually matters —
-                        <span class="text-white font-medium">revenue, scalability, and long-term growth.</span>
-                    </p>
-
-                    <p class="text-slate-400 text-lg mb-8 leading-relaxed">
-                        Our team combines data, creativity, and performance marketing to build systems
-                        that consistently generate results — not just short-term wins.
-                    </p>
-
-                    <!-- ✅ KEY POINTS -->
-                    <div class="space-y-4 mb-10">
-
-                        <div class="flex items-center gap-3">
-                            <div
-                                class="w-6 h-6 bg-primary/20 text-primary rounded-full flex items-center justify-center">
-                                <i class="ph-bold ph-check text-sm"></i>
-                            </div>
-                            <p class="text-slate-300">No long-term contracts</p>
-                        </div>
-
-                        <div class="flex items-center gap-3">
-                            <div
-                                class="w-6 h-6 bg-secondary/20 text-secondary rounded-full flex items-center justify-center">
-                                <i class="ph-bold ph-check text-sm"></i>
-                            </div>
-                            <p class="text-slate-300">Performance-driven strategies</p>
-                        </div>
-
-                        <div class="flex items-center gap-3">
-                            <div
-                                class="w-6 h-6 bg-primary/20 text-primary rounded-full flex items-center justify-center">
-                                <i class="ph-bold ph-check text-sm"></i>
-                            </div>
-                            <p class="text-slate-300">Full transparency & analytics</p>
-                        </div>
-
-                    </div>
-
-                    <!-- CTA -->
-                    <a href="#contact"
-                        class="inline-flex items-center gap-2 text-white font-semibold border-b-2 border-primary hover:text-primary transition">
-                        Learn More
-                        <i class="ph-bold ph-arrow-right"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
+    <section class="section faq-section" id="questions">
+      <div class="container faq-grid">
+        <div><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> Good to know <span class="section-number">/ 04</span></p><h2>Questions?<br><em>Start here.</em></h2><p class="faq-intro">The best place to begin is a conversation. Here are a few things you might be wondering.</p></div>
+        <div class="faq-list">
+          <details><summary>What does LocalNepal do?<span aria-hidden="true"></span></summary><p>LocalNepal is a digital marketing company helping businesses with paid advertising, SEO, brand strategy, conversion funnels, email marketing and analytics.</p></details>
+          <details><summary>Where does LocalNepal work?<span aria-hidden="true"></span></summary><p>We work with businesses in Kathmandu and Birgunj, Nepal. Get in touch to discuss your business and where you want to reach customers.</p></details>
+          <details><summary>Which service is right for my business?<span aria-hidden="true"></span></summary><p>That depends on your goals, audience and current digital presence. We'll start by understanding your needs before discussing the right approach.</p></details>
+          <details><summary>How can I get started?<span aria-hidden="true"></span></summary><p>Call us or connect with us on Facebook. Tell us a little about your business and what you'd like to achieve.</p></details>
         </div>
+      </div>
     </section>
 
-    <!-- work -->
-    <section id="work" class="py-28 relative">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <!-- 🔥 HEADER -->
-            <div class="text-center max-w-3xl mx-auto mb-20 reveal">
-
-                <h2 class="text-sm text-primary uppercase tracking-widest mb-3">
-                    How We Work
-                </h2>
-
-                <h3 class="text-4xl md:text-6xl font-bold text-white mb-6">
-                    Our Proven <br />
-                    <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                        Growth System
-                    </span>
-                </h3>
-
-                <p class="text-slate-400 text-lg">
-                    A step-by-step framework designed to scale your business efficiently.
-                </p>
-
-            </div>
-
-            <!-- 🚀 GRID (8 BOXES) -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-                <!-- 01 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition">
-                    <div class="text-primary font-bold mb-4">01</div>
-                    <h4 class="text-white font-semibold mb-2">Research</h4>
-                    <p class="text-slate-400 text-sm">Market, audience & competitor analysis.</p>
-                </div>
-
-                <!-- 02 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition">
-                    <div class="text-secondary font-bold mb-4">02</div>
-                    <h4 class="text-white font-semibold mb-2">Planning</h4>
-                    <p class="text-slate-400 text-sm">Clear roadmap based on data insights.</p>
-                </div>
-
-                <!-- 03 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition">
-                    <div class="text-primary font-bold mb-4">03</div>
-                    <h4 class="text-white font-semibold mb-2">Funnel Design</h4>
-                    <p class="text-slate-400 text-sm">High-converting landing & sales funnels.</p>
-                </div>
-
-                <!-- 04 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition">
-                    <div class="text-secondary font-bold mb-4">04</div>
-                    <h4 class="text-white font-semibold mb-2">Content Strategy</h4>
-                    <p class="text-slate-400 text-sm">Creative that attracts and converts.</p>
-                </div>
-
-                <!-- 05 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition">
-                    <div class="text-primary font-bold mb-4">05</div>
-                    <h4 class="text-white font-semibold mb-2">Campaign Launch</h4>
-                    <p class="text-slate-400 text-sm">Deploy ads across platforms.</p>
-                </div>
-
-                <!-- 06 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition">
-                    <div class="text-secondary font-bold mb-4">06</div>
-                    <h4 class="text-white font-semibold mb-2">Tracking Setup</h4>
-                    <p class="text-slate-400 text-sm">Accurate analytics & conversion tracking.</p>
-                </div>
-
-                <!-- 07 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition">
-                    <div class="text-primary font-bold mb-4">07</div>
-                    <h4 class="text-white font-semibold mb-2">Optimization</h4>
-                    <p class="text-slate-400 text-sm">Testing & improving performance.</p>
-                </div>
-
-                <!-- 08 -->
-                <div
-                    class="group p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition">
-                    <div class="text-secondary font-bold mb-4">08</div>
-                    <h4 class="text-white font-semibold mb-2">Scaling</h4>
-                    <p class="text-slate-400 text-sm">Increase ROI & grow sustainably.</p>
-                </div>
-
-            </div>
-
-        </div>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-top"><p class="eyebrow"><span class="eyebrow-line"></span> Let's get started <span class="section-number">/ 05</span></p><span>KATHMANDU / BIRGUNJ</span></div>
+        <div class="contact-main"><h2>Let's make<br>something <em>work.</em></h2><div><p>Have an idea, a challenge, or a business you're ready to grow? We'd love to hear about it.</p><a class="button button-light" href="tel:+9779845789757"><svg class="icon"><use href="#icon-phone"></use></svg> Call 984-5789757 <svg class="icon"><use href="#icon-arrow"></use></svg></a><a class="contact-social" href="https://www.facebook.com/profile.php?id=61578583409553">Find us on Facebook <svg class="icon"><use href="#icon-up-right"></use></svg></a></div></div>
+      </div>
     </section>
-
-
-    <!-- Testimonials -->
-    <section id="testimonials" class="py-28 relative overflow-hidden">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <!-- 🔥 HEADER -->
-            <div class="text-center max-w-3xl mx-auto mb-20 reveal">
-
-                <h2 class="text-sm text-primary uppercase tracking-widest mb-3">
-                    Testimonials
-                </h2>
-
-                <h3 class="text-4xl md:text-6xl font-bold text-white mb-6">
-                    Trusted by <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                        High-Growth Brands
-                    </span>
-                </h3>
-
-                <p class="text-slate-400 text-lg">
-                    Real feedback from clients who scaled with us.
-                </p>
-
-            </div>
-
-            <!-- 🚀 TESTIMONIAL GRID -->
-            <div class="grid md:grid-cols-3 gap-8">
-
-                <!-- 🔴 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <!-- glow -->
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <!-- stars -->
-                    <div class="flex gap-1 text-primary mb-6">
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                    </div>
-
-                    <!-- text -->
-                    <p class="text-slate-300 mb-8 leading-relaxed">
-                        "They transformed our entire marketing system. We went from inconsistent sales to predictable
-                        revenue every month."
-                    </p>
-
-                    <!-- user -->
-                    <div class="flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
-                            JD
-                        </div>
-                        <div>
-                            <p class="text-white font-semibold">James Dorsey</p>
-                            <p class="text-slate-500 text-sm">CMO, TechFlow</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- 🔵 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div class="flex gap-1 text-secondary mb-6">
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                    </div>
-
-                    <p class="text-slate-300 mb-8 leading-relaxed">
-                        "The level of strategy and execution is insane. We doubled revenue in 6 months with their
-                        system."
-                    </p>
-
-                    <div class="flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center text-secondary font-bold">
-                            SW
-                        </div>
-                        <div>
-                            <p class="text-white font-semibold">Sarah Williams</p>
-                            <p class="text-slate-500 text-sm">Founder, DataSync</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- 🔴 CARD -->
-                <div
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div class="flex gap-1 text-primary mb-6">
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                    </div>
-
-                    <p class="text-slate-300 mb-8 leading-relaxed">
-                        "Finally an agency that delivers results, not excuses. Clean strategy, clear reporting, real
-                        growth."
-                    </p>
-
-                    <div class="flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
-                            MR
-                        </div>
-                        <div>
-                            <p class="text-white font-semibold">Marcus Reed</p>
-                            <p class="text-slate-500 text-sm">CEO, Lumiere</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="py-28 relative">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <!-- 🔥 HEADER -->
-            <div class="text-center max-w-3xl mx-auto mb-20 reveal">
-
-                <h2 class="text-sm text-primary uppercase tracking-widest mb-3">
-                    Contact
-                </h2>
-
-                <h3 class="text-4xl md:text-6xl font-bold text-white mb-6">
-                    Let’s Start <br />
-                    <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                        Scaling Your Brand
-                    </span>
-                </h3>
-
-                <p class="text-slate-400 text-lg">
-                    Choose how you want to connect. Simple, fast, and direct.
-                </p>
-
-            </div>
-
-            <!-- 🚀 CONTACT CARDS -->
-            <div class="grid md:grid-cols-3 gap-8">
-
-                <!-- 🔴 WHATSAPP -->
-                <a href="https://wa.me/YOURNUMBER"
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition">
-                        <i class="ph-fill ph-whatsapp-logo text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        WhatsApp
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6">
-                        Get instant replies and quick consultation directly.
-                    </p>
-
-                    <span class="text-primary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Chat Now <i class="ph-bold ph-arrow-right"></i>
-                    </span>
-                </a>
-
-                <!-- 🔵 CALL -->
-                <a href="tel:+YOURNUMBER"
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-secondary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition">
-                        <i class="ph-fill ph-phone text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Book a Call
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6">
-                        Schedule a strategy call and discuss your growth plan.
-                    </p>
-
-                    <span class="text-secondary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Call Now <i class="ph-bold ph-arrow-right"></i>
-                    </span>
-                </a>
-
-                <!-- 🔴 EMAIL -->
-                <a href="mailto:youremail@gmail.com"
-                    class="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-primary/50 transition-all duration-300 overflow-hidden">
-
-                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition"></div>
-
-                    <div
-                        class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition">
-                        <i class="ph-fill ph-envelope text-2xl"></i>
-                    </div>
-
-                    <h3 class="text-xl font-bold text-white mb-3">
-                        Email Us
-                    </h3>
-
-                    <p class="text-slate-400 text-sm mb-6">
-                        Prefer email? Send us your requirements anytime.
-                    </p>
-
-                    <span class="text-primary text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Send Email <i class="ph-bold ph-arrow-right"></i>
-                    </span>
-                </a>
-
-            </div>
-
-            <!-- 🔥 TRUST LINE -->
-            <div class="text-center mt-16">
-                <p class="text-slate-500 text-sm">
-                    Limited onboarding — we only work with a few clients at a time
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="relative bg-dark-bg border-t border-dark-border pt-20 pb-10 overflow-hidden">
-
-        <!-- 🔥 Background Glow -->
-        <div class="absolute inset-0 pointer-events-none">
-            <div class="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-primary/10 blur-[120px]"></div>
-            <div class="absolute bottom-0 right-1/4 w-[300px] h-[300px] bg-secondary/10 blur-[120px]"></div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-6 relative z-10">
-
-            <!-- 🚀 TOP GRID -->
-            <div class="grid md:grid-cols-4 gap-12 mb-16">
-
-                <!-- 🔴 BRAND -->
-                <div>
-                    <div class="flex items-center gap-3 mb-6">
-                        <img src="images/localnepal.png" class="h-8">
-                        <span class="text-xl font-bold text-white">
-                            Local<span class="text-primary">Nepal</span>
-                        </span>
-                    </div>
-
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        We build high-performance marketing systems that turn attention into revenue.
-                    </p>
-
-                    <!-- Social -->
-                    <div class="flex gap-4">
-
-                        <a href="#"
-                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-dark-card border border-dark-border hover:border-primary/50 hover:text-primary transition">
-                            <i class="ph-fill ph-instagram-logo"></i>
-                        </a>
-
-                        <a href="#"
-                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-dark-card border border-dark-border hover:border-secondary/50 hover:text-secondary transition">
-                            <i class="ph-fill ph-linkedin-logo"></i>
-                        </a>
-
-                        <a href="#"
-                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-dark-card border border-dark-border hover:border-primary/50 hover:text-primary transition">
-                            <i class="ph-fill ph-twitter-logo"></i>
-                        </a>
-
-                    </div>
-                </div>
-
-                <!-- 🔵 SERVICES -->
-                <div>
-                    <h4 class="text-white font-semibold mb-6">Services</h4>
-                    <ul class="space-y-4 text-sm text-slate-400">
-                        <li><a href="#" class="hover:text-primary transition">Paid Ads</a></li>
-                        <li><a href="#" class="hover:text-primary transition">SEO</a></li>
-                        <li><a href="#" class="hover:text-primary transition">Funnels</a></li>
-                        <li><a href="#" class="hover:text-primary transition">Email Marketing</a></li>
-                    </ul>
-                </div>
-
-                <!-- 🔴 COMPANY -->
-                <div>
-                    <h4 class="text-white font-semibold mb-6">Company</h4>
-                    <ul class="space-y-4 text-sm text-slate-400">
-                        <li><a href="#about" class="hover:text-primary transition">About</a></li>
-                        <li><a href="#portfolio" class="hover:text-primary transition">Case Studies</a></li>
-                        <li><a href="#" class="hover:text-primary transition">Careers</a></li>
-                        <li><a href="#" class="hover:text-primary transition">Blog</a></li>
-                    </ul>
-                </div>
-
-                <!-- 🔵 CONTACT -->
-                <div>
-                    <h4 class="text-white font-semibold mb-6">Contact</h4>
-
-                    <div class="space-y-4 text-sm text-slate-400">
-
-                        <p class="flex items-center gap-2">
-                            <i class="ph ph-envelope text-primary"></i>
-                            youremail@gmail.com
-                        </p>
-
-                        <p class="flex items-center gap-2">
-                            <i class="ph ph-phone text-secondary"></i>
-                            +98 XXXXXXXX
-                        </p>
-
-                        <a href="https://wa.me/YOURNUMBER"
-                            class="inline-flex items-center gap-2 mt-2 text-primary hover:text-white transition">
-                            <i class="ph-fill ph-whatsapp-logo"></i>
-                            Chat on WhatsApp
-                        </a>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- 🔥 BOTTOM BAR -->
-            <div class="border-t border-dark-border pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-
-                <p class="text-slate-500 text-sm text-center md:text-left">
-                    © 2026 Local Nepal. All rights reserved. || <br class="md:hidden" />
-
-                    <span class="block md:inline mt-2 md:mt-0 opacity-80 hover:opacity-100 transition">
-                        Developed with ❤️ by
-                        <a href="https://anandkeshari.com.np" target="_blank"
-                            class="text-primary hover:text-white transition font-medium">
-                            Anand Keshari
-                        </a>
-                    </span>
-                </p>
-
-                <div class="flex gap-6 text-sm text-slate-500">
-                    <a href="#" class="hover:text-primary transition">Privacy</a>
-                    <a href="#" class="hover:text-primary transition">Terms</a>
-                    <a href="#" class="hover:text-primary transition">Cookies</a>
-                </div>
-
-            </div>
-
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  </main>
+  <footer class="footer"><div class="container footer-main"><a class="brand" href="#home"><img src="images/localnepal.png" alt="" width="38" height="38"><span>local<span class="brand-accent">nepal</span><span class="brand-dot">.</span></span></a><p>Thoughtful marketing for<br>businesses going places.</p><div><span class="footer-label">EXPLORE</span><a href="#services">Services</a><a href="#approach">Our approach</a><a href="#questions">FAQs</a></div><div><span class="footer-label">CONNECT</span><a href="tel:+9779845789757">984-5789757</a><a href="https://www.facebook.com/profile.php?id=61578583409553">Facebook</a></div></div><div class="container footer-bottom"><span>© 2026 LocalNepal. All rights reserved.</span><span>MADE FOR LOCAL AMBITION.</span><a href="#home">BACK TO TOP ↑</a></div></footer>
 </body>
-
 </html>
